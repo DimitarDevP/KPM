@@ -1,0 +1,25 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body { background: #CCC; padding: 15px; }
+
+#posts {
+    max-width: 850px;
+    margin: 0px auto;
+    background: white;
+    padding: 30px;
+    border-radius: .42rem;
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.post {
+    margin: 15px 0px;
+}
+
+.post > h1 {
+    margin-bottom: 10px;
+    font-size: 1.4em;
+}
